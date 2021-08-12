@@ -1,0 +1,154 @@
+body, html {
+	margin: auto 0;
+}
+
+.header-container {
+	display: flex;
+	list-style: none;
+	padding: 33px 0px;
+	margin: auto 0;
+	margin: 0px 104.5px;
+	font-family: 'Martel', serif;
+}
+
+.left-list {
+	margin-right: auto;
+	font-size: 21px;
+	font-weight: 550;
+	font-family: 'Martel', serif;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 14.4px;
+	font-family: 'Work Sans', sans-serif;
+	color: #5f5f5f;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.home {
+	color: #0e0e0e;
+}
+
+li {
+	padding: 6px 14.6px;
+}
+
+li, a:hover {
+	cursor: pointer;
+}
+
+.container {
+	background-color: #f6f6f6;
+	height: 450vh;
+}
+
+.buffer {
+	height: 80px;
+	width: 1110px;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+	margin: 0px 0px 15px;
+	font-size: 39px;
+	font-family: 'Playfair Display', serif;
+	color: #171717;
+	text-align: center;
+	font-weight: 300;
+}
+
+.text-cntr {
+	font-size: 19px;
+	font-family: 'Playfair Display', serif;
+	color: #5f5f5f;
+	width: 1110px;
+	height: 58px;
+	text-align: center;
+	margin: 30px 0px 0px;
+	margin-right: auto;
+	margin-left: auto;
+	letter-spacing: .02em;
+	line-height: 1.65;
+	font-weight: 300;
+}
+
+.icon-squares {
+	text-align: center;
+	margin-top: 30px;
+	padding: 30px 15px 20px;
+}
+
+.grid-wrapper {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+
+.box > img {
+	object-fit:cover;
+	height:100%;
+	width:100%;
+}
+
+.buffer-gap {
+	width: 1110px;
+	height: 100px;
+	margin: auto;
+}
+
+.moreworks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	padding: 35px 0px;
+	text-transform: uppercase;
+	font-size: 0.78rem;
+	cursor: pointer;
+	font-weight: 500;
+	font-family: 'Work Sans', sans-serif;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    letter-spacing: .004em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.moreworks:hover {
+	color: #b9a186;
+}
+
+footer {
+	background-color: rgba(130, 125, 130, 0.2);
+	height: 23vh;
+}
+
+.icons > li {
+	list-style: none;
+	padding:10px;
+	margin-top: 30px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	margin-right: 42px;
+}
+
+footer > p {
+	font-size: 0.9rem;
+	text-align: center;
+	font-family: "Work Sans",sans-serif;
+    letter-spacing: .004em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #5f5f5f;
+}
